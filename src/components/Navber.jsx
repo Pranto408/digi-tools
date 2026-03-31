@@ -30,7 +30,7 @@ const Navber = () => {
         </div>
         <div className="navbar-end gap-4">
           <a className="cursor-pointer">
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i className="fa-solid fa-cart-shopping"></i>
           </a>
           <a className="text-[#101727] font-semibold cursor-pointer">Login</a>
           <a className="btn bg-red-500 rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]">

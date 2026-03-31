@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS-friendly formatting.",
+    "price": 9.99,
+    "period": "Monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Content Writer",
+    "description": "Generate blog posts, ads, and social media content using AI.",
+    "price": 19.99,
+    "period": "Monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "SEO optimized content",
+      "Multiple language support",
+      "Fast generation"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
+  },
+  {
+    "id": 3,
+    "name": "Design Toolkit",
+    "description": "Create stunning graphics, logos, and social media posts easily.",
+    "price": 49.99,
+    "period": "Yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Drag & drop editor", "5000+ assets", "Brand kits"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1821/1821490.png"
+  },
+  {
+    "id": 4,
+    "name": "Project Manager X",
+    "description": "Organize tasks, collaborate with teams, and track progress.",
+    "price": 99.99,
+    "period": "One-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Kanban boards", "Team collaboration", "Real-time updates"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/906/906175.png"
+  },
+  {
+    "id": 5,
+    "name": "Online Course Creator",
+    "description": "Build and sell online courses with ease and grow your income.",
+    "price": 29.99,
+    "period": "Monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Video hosting", "Student analytics", "Payment integration"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+  },
+  {
+    "id": 6,
+    "name": "Cloud Storage Plus",
+    "description": "Securely store and share your files in the cloud with ease.",
+    "price": 99.99,
+    "period": "Yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["1TB storage", "File sharing", "Data encryption"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4144/4144784.png"
+  }
+]
