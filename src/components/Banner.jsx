@@ -1,12 +1,11 @@
-import BannerImage from "../../public/banner.png";
-import Group5 from "../../public/Group 5.png";
-import Play from "../../public/play.png";
+import BannerImage from "/banner.png";
+import Group5 from "/Group 5.png";
+import Play from "/Play.png";
 
 const Banner = () => {
   return (
     <div className=" min-h-162.5 flex items-center overflow-hidden">
       <div className=" w-10/12 mx-auto mt-10 lg:mt-0 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        {/* Left Content */}
         <div className="space-y-4">
           <div className="inline-flex items-center gap-2 bg-[#E1E7FF]  text-[#7525F8] text-sm font-medium px-5 py-2 rounded-full">
             <img src={Group5} alt="" /> New: AI-Powered Tools Available
@@ -37,7 +36,6 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* Right Image */}
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative">
             <img
