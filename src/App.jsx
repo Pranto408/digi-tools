@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Navber from "./components/Navber";
 import Tools from "./components/Tools";
+import Rating from "./components/Rating";
 
 const toolsPromise = fetch("/tools.json").then((res) => res.json());
 
@@ -12,8 +13,9 @@ function App() {
     // console.log(carts);
   return (
     <>
-      <Navber />
+      <Navber carts={carts} />
       <Banner />
+      <Rating/>
 
       <Suspense fallback={<p>Loading...</p>}>
         <Tools toolsPromise={toolsPromise} carts={carts} setCarts={setCarts} />
