@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const tagColors = {
   "Best Seller": "bg-orange-100 text-orange-700",
@@ -9,8 +10,15 @@ const tagColors = {
 const Card = ({ tool, carts, setCarts }) => {
     const [isBuy, setIsBuy] = useState(false);
     const handelIsBuy = () => {
-        setIsBuy(true)
-        setCarts([...carts,tool])
+      setIsBuy(true)
+      const isFound = carts.find(item => item.id === tool.id)
+      if (isFound) {
+        toast.error("Item already in cart");
+        return;
+      }
+
+      setCarts([...carts, tool])
+      toast.success("Item added to cart!")
     }
     return (
       <div key={tool.id}>
