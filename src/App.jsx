@@ -6,6 +6,7 @@ import Navber from "./components/Navber";
 import Tools from "./components/Tools";
 import Rating from "./components/Rating";
 import GetStarted from "./components/GetStarted";
+import Pricing from "./components/Pricing";
 
 const toolsPromise = fetch("/tools.json").then((res) => res.json());
 
@@ -21,7 +22,8 @@ function App() {
       <Suspense fallback={<p>Loading...</p>}>
         <Tools toolsPromise={toolsPromise} carts={carts} setCarts={setCarts} />
       </Suspense>
-      <GetStarted/>
+      <GetStarted />
+      <Pricing/>
 
       <Footer />
     </>
