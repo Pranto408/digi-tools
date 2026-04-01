@@ -12,20 +12,19 @@ import Explore from "./components/Explore";
 const toolsPromise = fetch("/tools.json").then((res) => res.json());
 
 function App() {
-    const [carts, setCarts] = useState([]);
-    // console.log(carts);
+  const [carts, setCarts] = useState([]);
+
   return (
     <>
       <Navber carts={carts} />
       <Banner />
-      <Rating/>
-
+      <Rating />
       <Suspense fallback={<p>Loading...</p>}>
         <Tools toolsPromise={toolsPromise} carts={carts} setCarts={setCarts} />
       </Suspense>
       <GetStarted />
-      <Pricing/>
-      <Explore/>
+      <Pricing />
+      <Explore />
       <Footer />
     </>
   );

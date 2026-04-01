@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-[#101727] border-t border-red-900/50 pt-16 pb-10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-          {/* Logo & Description */}
+
           <div className="md:col-span-4">
             <div className="flex items-center gap-3 mb-6">
               <h2 className="text-3xl font-bold tracking-tighter text-white">
@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
+
           <div className="md:col-span-2">
             <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
             <ul className="space-y-4 text-zinc-400">
@@ -122,7 +122,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+
         <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
           <div>© 2026 Digitools. All rights reserved.</div>
 

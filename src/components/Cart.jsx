@@ -29,7 +29,6 @@ const Cart = ({ carts, setCarts }) => {
                   key={item.id}
                   className="flex w-full items-center justify-between p-4 bg-[#F8F9FC] rounded-2xl border border-transparent hover:border-gray-100 transition-all"
                 >
-                  {/* Left Side: Icon and Info */}
                   <div className="flex items-center gap-4">
                     <div className="bg-white p-3 rounded-full shadow-sm flex items-center justify-center w-14 h-14">
                       <img
@@ -48,7 +47,7 @@ const Cart = ({ carts, setCarts }) => {
                     </div>
                   </div>
 
-                  {/* Right Side: Remove Button */}
+
                   <button
                     onClick={() => handleRemove(item)}
                     className="btn btn-ghost text-[#FF4D8D] hover:bg-red-50 capitalize font-semibold text-base"
@@ -59,7 +58,7 @@ const Cart = ({ carts, setCarts }) => {
               ))}
 
               <div className="mt-12 w-full">
-                {/* Total Amount Section */}
+
                 <div className="flex justify-between items-center mb-6">
                   <span className="text-[#94A3B8] text-lg font-medium">
                     Total:
@@ -69,7 +68,7 @@ const Cart = ({ carts, setCarts }) => {
                   </span>
                 </div>
 
-                {/* Proceed To Checkout Button */}
+
                 <button
                   onClick={handlePayment}
                   className="btn w-full bg-[#7C2DFF] hover:bg-[#6A25D9] border-none text-white rounded-full h-11 text-lg font-semibold normal-case shadow-lg shadow-purple-100 transition-all"
