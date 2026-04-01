@@ -7,6 +7,7 @@ import Tools from "./components/Tools";
 import Rating from "./components/Rating";
 import GetStarted from "./components/GetStarted";
 import Pricing from "./components/Pricing";
+import Explore from "./components/Explore";
 
 const toolsPromise = fetch("/tools.json").then((res) => res.json());
 
@@ -24,7 +25,7 @@ function App() {
       </Suspense>
       <GetStarted />
       <Pricing/>
-
+      <Explore/>
       <Footer />
     </>
   );

@@ -24,11 +24,11 @@ const Banner = () => {
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA]  px-6 py-3  font-semibold text-lg shadow-xl flex items-center gap-3 rounded-full  text-white cursor-pointer">
+            <button className="btn py-6 bg-linear-to-r from-[#4F39F6] to-[#9514FA]  px-6   font-semibold text-lg shadow-xl flex items-center gap-3 rounded-full  text-white cursor-pointer">
               Explore Products
             </button>
             <button
-              className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent transition-all px-6 py-3 border-2 border-[#9514FA] rounded-full font-semibold text-lg shadow-xl flex items-center gap-3
+              className="btn py-5.5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent transition-all px-6 border-2 border-[#9514FA] rounded-full font-semibold text-lg shadow-xl flex items-center gap-3
             cursor-pointer"
             >
               <img src={Play} alt="" /> Watch Demo
